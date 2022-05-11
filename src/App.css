@@ -39,4 +39,16 @@ span#counter {
 
 .btn:hover {
   background-position: right center; /* change the direction of the change here */
+  cursor: pointer;
+}
+
+.green {
+  color: green;
+}
+
+.salmon{
+  color:salmon;
+}
+.blue{
+  color: darkblue;
 }
