@@ -1,7 +1,12 @@
 import {Component} from 'react';
 import './App.css';
 
-function App() {
+class App extends Component {
+  constructor(){
+    super();
+    this.state={}
+  }
+  render(){
   return (
     <div className="main-container">
     <h1>Counter</h1>
@@ -10,9 +15,11 @@ function App() {
         <button className="btn increase">Increase</button>
         <button className="btn reset">Reset</button>
         <button className="btn decrease">Decrease</button>
+      </div>
     </div>
-</div>
-  );
+    );
+  }
+  
 }
 
 export default App;
